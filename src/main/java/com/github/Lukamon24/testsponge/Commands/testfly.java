@@ -10,9 +10,6 @@ import org.spongepowered.api.data.key.Keys;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.entity.living.player.gamemode.GameModes;
 import org.spongepowered.api.text.Text;
-// import org.spongepowered.api.text.chat.ChatType;
-// import org.spongepowered.api.text.format.TextColor;
-// import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.text.format.TextColors;
 
 public class testfly implements CommandExecutor {
