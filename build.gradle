@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.spongepowered.plugin' version '0.9.0'
+}
+
+// This may not be required, but has solved issues in the past
+compileJava.options.encoding = 'UTF-8'
+
+// TODO: Change the following to match your information
+group = 'com.github.Lukamon24'
+version = '1.0.0'
+description = 'Testing the sponge API with SpongeGradle...'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+        name = 'sponge-repo'
+        url = 'https://repo.spongepowered.org/maven'
+    }
+}
+
+dependencies {
+    implementation 'org.spongepowered:spongeapi:7.2.0'
+}
+
+test {
+    useJUnitPlatform()
+}
