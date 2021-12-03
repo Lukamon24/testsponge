@@ -10,9 +10,6 @@ import org.spongepowered.api.plugin.Plugin;
 import org.spongepowered.api.text.Text;
 import com.github.Lukamon24.testsponge.Commands.testfly;
 // import org.spongepowered.api.plugin.PluginContainer;
-// import org.spongepowered.api.text.Text;
-// import org.spongepowered.api.command.spec.CommandSpec;
-// import org.spongepowered.api.Sponge;
 
 import com.google.inject.Inject;
 import org.slf4j.Logger;
